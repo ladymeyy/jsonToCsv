@@ -21,3 +21,8 @@ General Notes:
 Important notice: 
 -------------------
 This program is currently not scalable (not recomended for big JSON files) since the fs.readFile will load the entire file into memory.
+
+
+How to run:
+------------
+node start pathToYourJsonfile.json
